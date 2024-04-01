@@ -108,7 +108,6 @@ WSGI_APPLICATION = 'djangoblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-            os.environ.get('DJANGO_MYSQL_PORT') or 3306),
         'NAME': 'djangoblog',
         'USER': 'root',
         'PASSWORD': 'password',
